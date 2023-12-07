@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="image-container">
+            <img id="image" src="https://cdn13.pravdasevera.ru/649d5b43a49739ffff7b9f42/649d5b8799423.jpg"
+                alt="Example Image">
+        </div>
+
+        <form id="filters-form">
+            <label for="grayscale">Grayscale:</label>
+            <input type="range" id="grayscale" name="grayscale" min="0" max="100" value="0">
+
+            <label for="sepia">Sepia:</label>
+            <input type="range" id="sepia" name="sepia" min="0" max="100" value="0">
+
+            <label for="blur">Blur:</label>
+            <input type="range" id="blur" name="blur" min="0" max="10" value="0">
+
+            <label for="invert">Invert:</label>
+            <input type="range" id="invert" name="invert" min="0" max="100" value="0">
+
+            <label for="opacity">Opacity:</label>
+            <input type="range" id="opacity" name="opacity" min="0" max="100" value="100">
+
+            <label for="brightness">Brightness:</label>
+            <input type="range" id="brightness" name="brightness" min="0" max="200" value="100">
+
+            <label for="contrast">Contrast:</label>
+            <input type="range" id="contrast" name="contrast" min="0" max="200" value="100">
+
+            <label for="saturate">Saturate:</label>
+            <input type="range" id="saturate" name="saturate" min="0" max="200" value="100">
+        </form>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
